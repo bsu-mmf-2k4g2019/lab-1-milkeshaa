@@ -4,9 +4,7 @@
 #
 #-------------------------------------------------
 
-QT       += core gui
-
-greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
+QT += widgets
 
 TARGET = Calculator
 TEMPLATE = app
@@ -29,7 +27,8 @@ SOURCES += \
         mainwindow.cpp
 
 HEADERS += \
-        mainwindow.h
+        mainwindow.h \
+    button.h
 
 FORMS += \
         mainwindow.ui
